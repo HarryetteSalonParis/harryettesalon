@@ -1,6 +1,8 @@
+#Alternate default index pages
+DirectoryIndex index.php
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-RewriteRule ^Home Index.php
+RewriteRule ^home index.php
