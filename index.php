@@ -10,12 +10,20 @@
                     .home-details-image{
                         display: none;
                     }
+
+                    .btn-treatments{
+                        display: none;
+                    }
                 }
 
                 @media screen and (min-width: 576px){
                     .home-details{
                         padding-top: 100px; 
                         
+                    }
+
+                    .second-home-details{
+                        padding-top: 40px;
                     }
                 }
 
@@ -89,21 +97,19 @@
                                     <div class="home-intro text-center">
                                         <p>Harryette specializes in making your hair and skin healthy and beautiful.</p>
                                         <p>Our mission is to enhance your beauty and to make you feel more confident.</p>
+                                        <p>Our vision is a beautiful YOU!</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="row" style="padding-top: 40px;">
+                        <div class="row second-home-details">
 
                             <div class="col-sm-4 align-self-center">
-                                <div class="home-intro" style="font-size: 30px;">
-                                    <p style="text-align: center;">Our vision is a beautiful YOU!</p>
-                                </div>
-                                <div class="btn-bookAppointment pt-2 d-flex justify-content-center">
+                                <div class="btn-bookAppointment  pt-2 d-flex justify-content-center">
                                     <a href="#treatments">
-                                        <button type="button" class="btn btn-outline-primary btn-lg" >Explore Treatments ↓</button>
+                                        <button type="button" class="btn btn-outline-primary btn-lg btn-treatments" >Explore Treatments ↓</button>
                                     </a>
                                 </div>
                             </div>
@@ -231,7 +237,8 @@
 
                 </div>
             <!-- Menu Content Section Ends-->
-
+            <div id="fb-root"></div>
+            <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 <?php include('partialpages/footer.php') ?>
 
 <script>

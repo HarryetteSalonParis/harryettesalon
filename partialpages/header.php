@@ -43,6 +43,20 @@
             }
         </script>
 
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.body.style.backgroundColor = "white";
+            }
+        </script>
+
         <style>
             @media screen and (max-width: 576px) {
                 .col-sm-2{
@@ -105,45 +119,40 @@
                                     </span>
                                 </button>
                             </div> 
-                                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="./index.php">Home</a>
-                                        </li>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="./index.php">Home</a>
+                                    </li>
 
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="./hair-service-selection.php#service-body">Hair Services</a>
-                                                <a class="dropdown-item" href="./hifu-service-selection.php#service-body">HIFU Services</a>
-                                                <a class="dropdown-item" href="./facial-service-selection.php#service-body">Facial Services</a>
-                                                <a class="dropdown-item" href="./underarm-service-selection.php#service-body">Underarms Treatment</a>
-                                                <a class="dropdown-item" href="./other-service-selection.php#service-body">Other Services</a>
-                                            </ul>
-                                        </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="./hair-service-selection.php#service-body">Hair Services</a>
+                                            <a class="dropdown-item" href="./hifu-service-selection.php#service-body">HIFU Services</a>
+                                            <a class="dropdown-item" href="./facial-service-selection.php#service-body">Facial Services</a>
+                                            <a class="dropdown-item" href="./underarm-service-selection.php#service-body">Underarms Treatment</a>
+                                            <a class="dropdown-item" href="./other-service-selection.php#service-body">Other Services</a>
+                                        </ul>
+                                    </li>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Book</a>
-                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Book</a>
+                                    </li>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./gallery.php">Gallery</a>
-                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./gallery.php">Gallery</a>
+                                    </li>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./contact.php">Contact Us</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./contact.php">Contact Us</a>
+                                    </li>
+                                </ul>
                             </div>
                         </nav>
                     </div>   
                 </div> 
             </div>
         </header>
-        <body>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="bvpjkibm"></script>

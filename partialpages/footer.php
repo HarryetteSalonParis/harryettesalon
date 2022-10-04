@@ -37,6 +37,11 @@
             footer{
                 background-color: white;
             }
+
+            .harryette-image-footer{
+                width: 100%;
+                height: 100%;
+            }
             
             
         </style>
@@ -56,7 +61,7 @@
                     <div class="row" style="text-align: -webkit-center;">
 
                         <div class="col-sm-3 align-self-center">
-                            <img src="./images/Image.webp" class="img-responsive" width="100%" height="100%">
+                            <img src="./images/Image.jpg" class="img-responsive harryette-image-footer" >
                         </div>
                         
                         <div class="footer-details col-sm-6 pt-5">
