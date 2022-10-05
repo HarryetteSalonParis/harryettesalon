@@ -39,8 +39,9 @@
             }
 
             .harryette-image-footer{
-                width: 100%;
+                width: 285px;
                 height: 100%;
+                margin: auto;
             }
             
             
@@ -60,8 +61,8 @@
                 <div class="container">
                     <div class="row" style="text-align: -webkit-center;">
 
-                        <div class="col-sm-3 align-self-center">
-                            <img src="./images/Image.jpg" class="img-responsive harryette-image-footer" >
+                        <div class="col-sm-3 harryette-image-footer">
+                            <img src="./images/Image.jpg" class="img-responsive" >
                         </div>
                         
                         <div class="footer-details col-sm-6 pt-5">
