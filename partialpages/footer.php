@@ -1,5 +1,26 @@
          <!-- Footer Section Starts-->
         <style>
+            @media screen and (max-width: 576px) {
+                .footer-details{
+                    font-size: 18px;
+                    font-family: 'Playfair Display', serif;
+                    padding-top: 1.5rem!important;
+                    padding-bottom: 1.5rem!important;
+                }
+
+                .harryette-image-footer{
+                    padding-top: 10px;
+                }
+            }
+
+            @media screen and (min-width: 576px) {
+
+                .footer-details{
+                    font-size: 24px;
+                    font-family: 'Playfair Display', serif;
+                    padding-top: 2.5rem!important;
+                }
+            }
 
            .btn-bookAppointment .btn, .modal-footer .btn{
                 color: white;
@@ -29,20 +50,19 @@
                 height: 40px;
             }
 
-            .footer-details{
-                font-size: 24px;
-                font-family: 'Playfair Display', serif;
+            .harryette-image-footer{
+                width: 285px;
+                height: 100%;
+                margin: auto;
             }
 
             footer{
                 background-color: white;
             }
 
-            .harryette-image-footer{
-                width: 285px;
-                height: 100%;
-                margin: auto;
-            }
+
+
+
             
             
         </style>
@@ -65,7 +85,7 @@
                             <img src="./images/Image.jpg" class="img-responsive" width="100%">
                         </div>
                         
-                        <div class="footer-details col-sm-6 pt-5">
+                        <div class="footer-details col-sm-6">
                             <p>Harryette Salon</p>
                             <p>#30 Rue du Bailly 93210 La Plaine Saint-Denis</p>
                             <div class="phoneLink">

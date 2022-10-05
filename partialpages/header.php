@@ -23,37 +23,18 @@
             {
                 location.href = "https://www.appointfix.com/book/HARRYETTE";
             };
-
-            function servicesLink()
-            {
-                location.href = "../php/services.php";
-            };
         </script>
 
         <script>
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {
                 var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos || currentScrollPos == 0) {
+                if (prevScrollpos > currentScrollPos) {
                     document.getElementById("navbar").style.top = "0";
                 } else {
                     document.getElementById("navbar").style.top = "-100px";
                 }
                 prevScrollpos = currentScrollPos;
-            }
-        </script>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft= "0";
-                document.body.style.backgroundColor = "white";
             }
         </script>
 
@@ -98,7 +79,7 @@
                 background-color: #F5F5F5;
             }
             .header-wrapper{
-                transition: top 0.3s;
+                transition: top 0.5s;
             }
 
             

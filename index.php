@@ -14,6 +14,10 @@
                     .btn-treatments{
                         display: none;
                     }
+
+                    .discover-treatments-wrapper{
+                        padding-top: 0px;
+                    }
                 }
 
                 @media screen and (min-width: 576px){
@@ -24,6 +28,10 @@
 
                     .second-home-details{
                         padding-top: 40px;
+                    }
+                    
+                    .discover-treatments-wrapper{
+                        padding-top: 0px;
                     }
                 }
 
@@ -78,6 +86,7 @@
                     bottom: 0;
                     padding-bottom: 0;
                 }
+                
 
 
             </style>
@@ -123,7 +132,7 @@
 
 
 
-                    <div class="col-sm-12 py-5" id="treatments">
+                    <div class="col-sm-12 py-5 " id="treatments">
                         <div class="container">
                             <div class="row">
                                 <div class="discover-treatments-wrapper text-center">
