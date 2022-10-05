@@ -18,6 +18,10 @@
                     .discover-treatments-wrapper{
                         padding-top: 0px;
                     }
+
+                    .home-intro{
+                        font-size: 30px;
+                    }
                 }
 
                 @media screen and (min-width: 576px){
@@ -27,11 +31,15 @@
                     }
 
                     .second-home-details{
-                        padding-top: 40px;
+                        padding-top: 35px;
                     }
                     
                     .discover-treatments-wrapper{
                         padding-top: 0px;
+                    }
+                    
+                    .home-intro{
+                        font-size: 40px;
                     }
                 }
 
@@ -44,20 +52,19 @@
                 }
 
                 .home-intro{
-                    font-family: 'Lora';
-                    font-size: 25px;
+                    font-family: 'Amatic SC';
                     color: black;
                 }
                 .discover-treatments-wrapper{
-                    font-family: 'Playfair Display', serif;
+                    font-family: 'Amatic SC';
                     font-size: 24px;
                     line-height: 1;
                 }
                 .fs-5{
-                    font-family: 'Playfair Display', serif;
+                    font-family: 'Amatic SC';
                 }
                 h5{
-                    font-family: 'Playfair Display', serif;
+                    font-family: 'Amatic SC';
                     font-size: 19px;
                     line-height: 1;
                 }
@@ -86,8 +93,6 @@
                     bottom: 0;
                     padding-bottom: 0;
                 }
-                
-
 
             </style>
 
@@ -104,9 +109,9 @@
                             <div class="col-sm-4 pt-5 align-self-center">
                                 <div class="container">
                                     <div class="home-intro text-center">
-                                        <p>Harryette specializes in making your hair and skin healthy and beautiful.</p>
+                                        <p>"Harryette specializes in making your hair and skin healthy and beautiful.</p>
                                         <p>Our mission is to enhance your beauty and to make you feel more confident.</p>
-                                        <p>Our vision is a beautiful YOU!</p>
+                                        <p>Our vision is a BEYOUTHIFUL YOU!"</p>
                                     </div>
                                 </div>
 

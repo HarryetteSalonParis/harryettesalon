@@ -1,84 +1,105 @@
-        <head>
-                <title>Contact Us | Harryette - Beauty Clinic</title>
-        </head>
+<head>
+        <title>Contact Us | Harryette - Beauty Clinic</title>
+</head>
 <?php include('partialpages/header.php') ?>
 
         <style>
-        .contact-page-wrapper{
-                background: #F5F5F5;
-                font-family: 'Playfair Display', serif;
-                font-size: 20px;
-        }
+                @media screen and (max-width: 576px) {
 
-        input[type=text], select, textarea {
-                width: 100%;
-                padding: 12px 20px;
-                margin: 8px 0;
-                display: inline-block;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                box-sizing: border-box;
-        }
+                        .contact-details-image{
+                                height: 200px;
+                        }
 
-        input[type=text]:hover, input[type=text]:focus, textarea:hover, textarea:focus, select:hover, select:focus{
-                border-color: #F6DDCC;
-                outline: none !important;
-                border:1px solid #F6DDCC;
-        }
+                        .clinic-info-details{
+                                font-size: 16px;
+                        }
 
-        input[type=submit] {
-                width: 100%;
-                background-color: white;
-                color: #F6DDCC;
-                padding: 14px 20px;
-                margin: 8px 0;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                border:2px solid #F6DDCC;
+                        .col-sm-2{
+                                padding: 0px;
+                        }
 
-        }
+                        .col-sm-10{
+                                padding: 0px;
+                        }
 
-        input[type=submit]:hover {
-                background-color: #F6DDCC;
-                color: white;
-                border-color: #F6DDCC;
-                outline: none !important;
-        }
+                        .clinic-info-details div img{
+                                width: 25px;
+                                height: 25px;
+                        }
+                } 
+                
+                @media screen and (min-width: 576px){
+                        .contact-details-image{
+                                height: 400px;
+                        }
 
-        .input-form-wrapper {
-                border-radius: 5px;
-                padding: 20px;
-        }
+                        .clinic-info-details div img{
+                                width: 30px;
+                                height: 30px;
+                        }
+                }
+                
+                .contact-page-wrapper{
+                        background: #F5F5F5;
+                        font-family: 'Amatic SC';
+                        font-size: 20px;
+                }
 
-        .input-form{
-                padding-bottom: 30px;
-        }
+                input[type=text], select, textarea {
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                }
 
-        h2{
-                font-weight: bold;
-        }
+                input[type=text]:hover, input[type=text]:focus, textarea:hover, textarea:focus, select:hover, select:focus{
+                        border-color: #F6DDCC;
+                        outline: none !important;
+                        border:1px solid #F6DDCC;
+                }
 
-        label{
-                font-size: 16px;
-                color: #888;
-        }
+                input[type=submit] {
+                        width: 100%;
+                        background-color: white;
+                        color: #F6DDCC;
+                        padding: 14px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        border:2px solid #F6DDCC;
+
+                }
+
+                input[type=submit]:hover {
+                        background-color: #F6DDCC;
+                        color: white;
+                        border-color: #F6DDCC;
+                        outline: none !important;
+                }
+
+                .input-form{
+                        padding-bottom: 30px;
+                }
+
+                label{
+                        font-size: 12px;
+                        color: #888;
+                }
+                
         </style>
             <!-- Menu Content Section Starts-->
         <div class="contact-page-wrapper">
                 <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px; padding-top: 100px; padding-bottom: 25px;">
-                        <img src="./images/Clinic Image 2.jpg" class="img-responsive" style="width: 100%; height: 400px">
+                        <img src="./images/Clinic Image 2.jpg" class="img-responsive contact-details-image" style="width: 100%;">
                 </div>
 
-                <div class="container">
-                        <div class="row">
-                                <div class="col-sm-4">
-                                        <h2>Contact Us</h2>
-                                </div>
-                                <div class="col-sm-8">
-                                        <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                                                </p>
-                                </div>
+                <div class="container py-3">
+                        <div class="col-sm-12 text-center">
+                                <h2>Contact Us</h2>
                         </div>
                 </div>
                 
@@ -110,51 +131,38 @@
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-sm-5 align-self-center">
+                                <div class="col-sm-5 align-self-center py-3">
                                         <div class="container">
-                                                <div class="py-4">
+                                                <div class="clinic-info-details py-4">
                                                         <h4>Clinic Location</h4>
-                                                        <div class="row mt-4">
-                                                                <div class="col-sm-2" style="width: fit-content">
-                                                                        <img src="./images/address-location-icon.svg" width="30px" height="30px">
-                                                                </div>
-                                                                <div class="col-sm-10">
-                                                                        <p>#30 Rue du Bailly 93210 La Plaine Saint-Denis</p>
-                                                                </div>
+                                                        <div class="col-sm-12 py-3 ">
+                                                                <img class="d-inline" src="./images/address-location-icon.svg">
+
+                                                                <p class="d-inline" style="padding-left: 5%">#30 Rue du Bailly 93210 La Plaine Saint-Denis</p>
                                                         </div>
-                                                        <div class="row mb-2">
-                                                                <div class="col-sm-2" style="width: fit-content">
-                                                                        <img src="./images/calendar-icon.svg" width="30px" height="30px">
-                                                                </div>
-                                                                <div class="col-sm-10">
-                                                                        <p>Monday - Sunday: 9:00am - 6:00pm</p>
-                                                                </div>
+                                                        <div class="col-sm-12">
+                                                                <img class="d-inline" src="./images/calendar-icon.svg" >
+
+                                                                <p class="d-inline" style="padding-left: 5%">Monday - Sunday: 9:00am - 6:00pm</p>
                                                         </div>
                                                 </div>
                                         </div>
 
                                         <div class="container align-self-end">
-                                                <div class="py-4">
+                                                <div class="clinic-info-details py-2">
                                                         <h4>Contact Information</h4>
-                                                        <div class="row mb-1">
-                                                                <div class="col-sm-2" style="width: fit-content">
-                                                                        <img src="./images/phone-ringing-icon.svg" width="30px" height="30px">
-                                                                </div>
-                                                                <div class="col-sm-10">
-                                                                        <div class="phoneLink">
-                                                                                <p class="call-button" style="color:black">Landline:
-                                                                                        <a href="tel:+33758703821" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" style="color:#EDBB99; text-decoration: none"> +33 7 58 70 38 21</a>
-                                                                                </p> 
-                                                                        </div>
-                                                                </div>
+                                                        <div class="col-sm-12 py-3 ">
+                                                                <img class="d-inline" src="./images/phone-ringing-icon.svg">
+
+                                                                <p class="d-inline call-button" style="color:black; padding-left: 5%">
+                                                                        <a href="tel:+33758703821" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" style="color:#EDBB99; text-decoration: none"> +33 7 58 70 38 21</a>
+                                                                </p> 
                                                         </div>
-                                                        <div class="row mb-2">
-                                                                <div class="col-sm-2" style="width: fit-content">
-                                                                        <img src="./images/email-address-icon.svg" width="30px" height="30px">
-                                                                </div>
-                                                                <div class="col-sm-10">
-                                                                        <p>Email Address: <a href="#questionsPage" style="color:#EDBB99; text-decoration: none">harryetteinfo@gmail.com</a></p>
-                                                                </div>
+
+                                                        <div class="col-sm-12">
+                                                                <img src="./images/email-address-icon.svg">
+
+                                                                <p class="d-inline" style="padding-left: 5%"><a href="#questionsPage" style="color:#EDBB99; text-decoration: none">harryetteinfo@gmail.com</a></p>
                                                         </div>
                                                 </div>
                                         </div>
@@ -162,22 +170,17 @@
                         </div>
                 </div>
                 <div class="questions-wrapper" id="questionsPage">
-                        <div class="py-4">                                                
-                                <div class="container ">
-                                        <div class="row">
-                                                <div class="input-form-wrapper">
-                                                                <h2>Questions?</h2>
-                                                </div>
-                                                <div>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="container d-flex justify-content-center">
+                        <div class="container pt-3">
                                 <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 ">
+                                                <h2>Questions?</h2>
+
+                                                <p>
+                                                If you are ready to start your beauty journey, and have a few unanswered questions. Contact us by filling out the form!
+                                                </p>
+                                        </div>
+
+                                        <div class="col-sm-6">
                                                 <form class="questionForm" action="" method="post">
                                                         <div class="input-form">
                                                                 <label for="selectServices">SERVICES</label>

@@ -5,12 +5,9 @@
 
     <style>
         @media screen and (max-width: 576px) {
-            .services-details{
-                padding: 30px;
-            }
 
             .service-details-image{
-                display: none;
+                height: 200px;
             }
         }
 
@@ -18,6 +15,10 @@
             .services-details{
                 padding-top: 100px; 
                 padding-bottom: 25px;
+            }
+
+            .service-details-image{
+                height: 400px;
             }
         }
 
@@ -28,20 +29,20 @@
         }
         .service-card-title{
             padding-top: 25px;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Amatic SC';
             font-size: 20px;
             line-height: 1;
         }
         .discover-treatments-wrapper{
-            font-family: 'Playfair Display', serif;
+            font-family: 'Amatic SC';
             font-size: 28px;
         }
     </style>
 
     <body onload="init()">
         <div class="services-wrapper">
-            <div class="col-sm-12 services-details">
-                <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%; height: 400px">
+            <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px; padding-top: 100px; padding-bottom: 25px;">
+                    <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%;">
             </div>
 
             <div class="col-sm-12 py-5" id="service-body">

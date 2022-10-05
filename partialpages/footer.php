@@ -3,7 +3,8 @@
             @media screen and (max-width: 576px) {
                 .footer-details{
                     font-size: 18px;
-                    font-family: 'Playfair Display', serif;
+                    font-family: 'Amatic SC';
+                    font-weight: bold;
                     padding-top: 1.5rem!important;
                     padding-bottom: 1.5rem!important;
                 }
@@ -16,8 +17,9 @@
             @media screen and (min-width: 576px) {
 
                 .footer-details{
-                    font-size: 24px;
-                    font-family: 'Playfair Display', serif;
+                    font-size: 30px;
+                    font-weight: bold;
+                    font-family: 'Amatic SC';
                     padding-top: 2.5rem!important;
                 }
             }
