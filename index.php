@@ -222,9 +222,8 @@
 
                                     <div class="item">
                                         <div class="card border-0 shadow">
-                                            <div class="fb-post d-flex justify-content-center" data-href="https://www.facebook.com/GinebraDurano/posts/pfbid02c3gq4um6bmUBrgNYejN5kHQ6LzkEHfVbaV4QUdhTcCKcpzsGY7tQq7NKoUpXDkxl" data-width="750" data-show-text="true"><blockquote cite="https://www.facebook.com/GinebraDurano/posts/5110058935704134" class="fb-xfbml-parse-ignore"><p>I had my derma-planning treatment at Harryette&#039;s salon last week and I would say, it&#039;s worth it.
-                                                Harryette is also the...</p>Posted by <a href="#" role="button">Gin Durano-Delcourt</a> on&nbsp;<a href="https://www.facebook.com/GinebraDurano/posts/5110058935704134">Friday, April 15, 2022</a></blockquote>
-                                            </div>
+                                        <div class="fb-post d-flex justify-content-center" data-href="https://www.facebook.com/GinebraDurano/posts/pfbid026HUALmHDxL4wWUcSjJWaXoLLdfPKTQn9XUYZwpTCkdvpzkuKsr2zcZF9TtSJUAWRl" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/GinebraDurano/posts/5110058935704134" class="fb-xfbml-parse-ignore"><p>I had my derma-planning treatment at Harryette&#039;s salon last week and I would say, it&#039;s worth it.
+                                                Harryette is also the...</p>Posted by <a href="#" role="button">Gin Durano-Delcourt</a> on&nbsp;<a href="https://www.facebook.com/GinebraDurano/posts/5110058935704134">Friday, April 15, 2022</a></blockquote></div>
                                         </div>
                                     </div>
                                     <div class="item">
@@ -247,7 +246,7 @@
                 </div>
             <!-- Menu Content Section Ends-->
             <div id="fb-root"></div>
-            <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="SyB9ZZoc"></script>
 <?php include('partialpages/footer.php') ?>
 
 <script>
@@ -256,7 +255,10 @@
         margin:10,
         loop: true,
         autoHeight:true,
-        autoplayHoverPause:true
+        autoplayHoverPause:true,
+        autoplay:true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause:true,
 
     });
 </script>
