@@ -62,7 +62,7 @@
                     <div class="row" style="text-align: -webkit-center;">
 
                         <div class="col-sm-3 harryette-image-footer">
-                            <img src="./images/Image.jpg" class="img-responsive" >
+                            <img src="./images/Image.jpg" class="img-responsive" width="100%">
                         </div>
                         
                         <div class="footer-details col-sm-6 pt-5">
