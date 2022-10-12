@@ -26,16 +26,8 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .service-card-title{
-            padding-top: 25px;
-            font-family: 'Playfair Display', serif;
-            font-size: 20px;
-            line-height: 1;
-        }
-        .discover-treatments-wrapper{
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-        }
+
+
     </style>
 
     <body onload="init()">
@@ -50,15 +42,16 @@
                         <div class="discover-treatments-wrapper text-center">
                             <p>FACIAL SERVICES</p>
                         </div>
+                        
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=HydraFacial">
+                                <a href="./services.php?service=HarryetteFacial">
                                         <img src="./images/HydraFacial.jpg" height="330px" width="330px" class="img-responsive" alt="Hydra Facial">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>Hydra Facial</p>
+                                    <p>Harryette's Facial</p>
                                 </div> 
                             </div>  
                         </div>
@@ -66,12 +59,12 @@
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=LightChemicalPeel">
-                                        <img src="./images/LightChemicalPeel.jpg" height="330px" width="330px" class="img-responsive" alt="Light Chemical Peel">
+                                    <a href="./services.php?service=HifuFacial">
+                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="HIFU w/ Facial">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>Light Chemical Peel</p>
+                                    <p>HIFU</p>
                                 </div> 
                             </div>  
                         </div>
@@ -79,12 +72,12 @@
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=Dermaplaning">
-                                        <img src="./images/Dermaplaning.jpg" height="330px" width="330px" class="img-responsive" alt="Dermaplaning"> 
+                                    <a href="./services.php?service=Microneedling">
+                                        <img src="./images/Microneedling.jpg" height="330px" width="330px" class="img-responsive" alt="Microneedling">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>Dermaplaning</p>
+                                    <p>Microneedling</p>
                                 </div> 
                             </div>  
                         </div>
@@ -92,12 +85,26 @@
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=KoreanMask">
-                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="Korean Mask">
+                                    <a href="./services.php?service=RFMicroneedling">
+                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="RF Microneedling">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>Korean Mask</p>
+                                    <p>RF Microneedling</p>
+                                </div> 
+                            </div>  
+                        </div>
+                        
+
+                        <div class="col-sm-4 py-3">
+                            <div class="service-card">
+                                <div class="border-0 shadow">
+                                <a href="./services.php?service=Mesoestetic">
+                                        <img src="./images/Mesoestetic.jpg" height="330px" width="330px" class="img-responsive" alt="Mesoestetic Chemical Peeling">
+                                    </a>
+                                </div>
+                                <div class="service-card-title text-center">
+                                    <p>Mesoestetic Chemical Peeling</p>
                                 </div> 
                             </div>  
                         </div>
@@ -105,12 +112,12 @@
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=LEDTherapy">
-                                        <img src="./images/LEDTherapy.jpg" height="330px" width="330px" class="img-responsive" alt="LED Therapy">
+                                <a href="./services.php?service=ChanelTreatment">
+                                        <img src="./images/ChanelTreatment.jpg" height="330px" width="330px" class="img-responsive" alt="Chanel Treatment">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>LED Therapy</p>
+                                    <p>Chanel Treatment</p>
                                 </div> 
                             </div>  
                         </div>
@@ -118,12 +125,12 @@
                         <div class="col-sm-4 py-3">
                             <div class="service-card">
                                 <div class="border-0 shadow">
-                                <a href="./services.php?service=OzoneTherapy">
-                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="Ozone Mask">
+                                <a href="./services.php?service=CarbonLaser">
+                                        <img src="./images/CarbonLaser.jpg" height="330px" width="330px" class="img-responsive" alt="Carbon Laser">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
-                                    <p>Ozone Therapy</p>
+                                    <p>Carbon Laser</p>
                                 </div> 
                             </div>  
                         </div>

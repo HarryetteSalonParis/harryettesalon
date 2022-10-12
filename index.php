@@ -53,20 +53,16 @@
 
                 .home-intro{
                     font-family: 'Amatic SC';
+                    font-weight: bold;
                     color: black;
                 }
-                .discover-treatments-wrapper{
-                    font-family: 'Amatic SC';
-                    font-size: 24px;
-                    line-height: 1;
-                }
+                
                 .fs-5{
                     font-family: 'Amatic SC';
                 }
                 h5{
                     font-family: 'Amatic SC';
-                    font-size: 19px;
-                    line-height: 1;
+                    font-size: 26px;
                 }
                 .treatments-card{
                     width: fit-content;    
@@ -135,15 +131,13 @@
 
                     </div>
 
-
-
                     <div class="col-sm-12 py-5 " id="treatments">
                         <div class="container">
                             <div class="row">
                                 <div class="discover-treatments-wrapper text-center">
                                     <p>DISCOVER THE RIGHT TREATMENTS FOR YOU</p>
                                 </div>
-                                <div class="col-sm-4 py-3 ">
+                                <div class="col-sm-6 py-3 ">
 									<div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./hair-service-selection.php#service-body">
@@ -155,19 +149,8 @@
                                         </div> 
                                     </div>  
                                 </div>
-                                <div class="col-sm-4 py-3">
-									<div class="treatments-card">
-                                        <div class="border-0 shadow">
-                                            <a href="./hifu-service-selection.php#service-body">
-                                                <img src="./images/Hifu-Service-Line-Image.jpg" height="330px" width="330px" class="img-responsive rounded ">
-                                            </a>
-                                        </div>
-                                        <div class="treatment-card-title text-center">
-                                            <h5>HIFU SERVICES</h5>
-                                        </div> 
-                                    </div>                                
-                                </div>
-                                <div class="col-sm-4 py-3">
+
+                                <div class="col-sm-6 py-3">
 									<div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./facial-service-selection.php#service-body">
@@ -179,10 +162,7 @@
                                         </div>
                                     </div>                                 
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-2"></div>
-                                <div class="col-sm-4 pt-5">
+                                <div class="col-sm-6 py-3">
                                     <div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./underarm-service-selection.php#service-body">
@@ -194,7 +174,7 @@
                                         </div>   
                                     </div>          
                                 </div>
-                                <div class="col-sm-4 pt-5">
+                                <div class="col-sm-6 py-3">
                                     <div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./other-service-selection.php#service-body">
@@ -206,7 +186,6 @@
                                         </div>  
                                     </div>
                                 </div>
-                                <div class="col-sm-2"></div>
                             </div>
                         </div>
                     </div>    

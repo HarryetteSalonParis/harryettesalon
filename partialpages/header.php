@@ -74,13 +74,34 @@
 
             .nav-link{
                 text-align: -webkit-center;
-                font-size: 20px;
+                font-size: 28px;
+                font-family: 'Amatic SC';
+                font-weight: bold;
             }
+
             body{
                 background-color: #F5F5F5;
             }
+            
             .header-wrapper{
                 transition: top 0.5s;
+            }
+
+            .discover-treatments-wrapper{
+                font-family: 'Amatic SC';
+                font-size: 32px;
+                font-weight: bold;
+            }
+
+            .service-card-title{
+                padding-top: 25px;
+                font-family: 'Amatic SC';
+                font-size: 26px;
+            }
+
+            .dropdown-menu{
+                font-family: 'Amatic SC';
+                font-size: 20px;
             }
 
             
@@ -113,7 +134,7 @@
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="./hair-service-selection.php#service-body">Hair Services</a>
-                                            <a class="dropdown-item" href="./hifu-service-selection.php#service-body">HIFU Services</a>
+                                            <!--<a class="dropdown-item" href="./hifu-service-selection.php#service-body">HIFU Services</a>-->
                                             <a class="dropdown-item" href="./facial-service-selection.php#service-body">Facial Services</a>
                                             <a class="dropdown-item" href="./underarm-service-selection.php#service-body">Underarms Treatment</a>
                                             <a class="dropdown-item" href="./other-service-selection.php#service-body">Other Services</a>

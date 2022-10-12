@@ -26,16 +26,8 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .service-card-title{
-            padding-top: 25px;
-            font-family: 'Playfair Display', serif;
-            font-size: 20px;
-            line-height: 1;
-        }
-        .discover-treatments-wrapper{
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-        }
+
+
     </style>
 
     <body onload="init()">

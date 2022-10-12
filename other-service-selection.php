@@ -26,16 +26,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .service-card-title{
-            padding-top: 25px;
-            font-family: 'Playfair Display', serif;
-            font-size: 20px;
-            line-height: 1;
-        }
-        .discover-treatments-wrapper{
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-        }
+
     </style>
 
     <body onload="init()">
@@ -73,6 +64,19 @@
                                 </div>
                                 <div class="service-card-title text-center">
                                     <p>EM Sculpt</p>
+                                </div> 
+                            </div>  
+                        </div>
+
+                        <div class="col-sm-4 py-3">
+                            <div class="service-card">
+                                <div class="border-0 shadow">
+                                <a href="./services.php?service=VAJACIAL">
+                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="VAJACIAL">
+                                    </a>
+                                </div>
+                                <div class="service-card-title text-center">
+                                    <p>VAJACIAL</p>
                                 </div> 
                             </div>  
                         </div>

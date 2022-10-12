@@ -11,7 +11,11 @@
                         }
 
                         .clinic-info-details{
-                                font-size: 16px;
+                                font-size: 20px;
+                        }
+
+                        .questions-message{
+                                font-size: 20px;
                         }
 
                         .col-sm-2{
@@ -31,6 +35,14 @@
                 @media screen and (min-width: 576px){
                         .contact-details-image{
                                 height: 400px;
+                        }
+
+                        .clinic-info-details{
+                                font-size: 24px;
+                        }
+
+                        .questions-message{
+                                font-size: 24px;
                         }
 
                         .clinic-info-details div img{
@@ -86,7 +98,7 @@
                 }
 
                 label{
-                        font-size: 12px;
+                        font-size: 18px;
                         color: #888;
                 }
                 
@@ -99,7 +111,7 @@
 
                 <div class="container py-3">
                         <div class="col-sm-12 text-center">
-                                <h2>Contact Us</h2>
+                                <h2><b>Contact Us</b></h2>
                         </div>
                 </div>
                 
@@ -134,7 +146,7 @@
                                 <div class="col-sm-5 align-self-center py-3">
                                         <div class="container">
                                                 <div class="clinic-info-details py-4">
-                                                        <h4>Clinic Location</h4>
+                                                        <h3>Clinic Location</h3>
                                                         <div class="col-sm-12 py-3 ">
                                                                 <img class="d-inline" src="./images/address-location-icon.svg">
 
@@ -172,10 +184,9 @@
                 <div class="questions-wrapper" id="questionsPage">
                         <div class="container pt-3">
                                 <div class="row">
-                                        <div class="col-sm-6 ">
-                                                <h2>Questions?</h2>
-
-                                                <p>
+                                        <div class="col-sm-6">
+                                                <h2><b>Questions?</b></h2>
+                                                <p class="questions-message">
                                                 If you are ready to start your beauty journey, and have a few unanswered questions. Contact us by filling out the form!
                                                 </p>
                                         </div>
