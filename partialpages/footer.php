@@ -99,7 +99,7 @@
                                 <a href="https://www.facebook.com/harryettesalon" target="_blank" rel="noopener noreferrer">
                                     <img src="./images/fbLogo.png" class="img-responsive" width="30" height="30">
                                 </a>
-                                <a href="https://www.instagram.com/harryette_salon" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/harryettesalon/" target="_blank" rel="noopener noreferrer">
                                     <img src="./images/igLogo.png" class="img-responsive" width="30" height="30">
                                 </a>
                                 <a href="https://www.tiktok.com/@harryettesalon" target="_blank" rel="noopener noreferrer">
