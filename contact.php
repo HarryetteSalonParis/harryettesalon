@@ -1,5 +1,5 @@
 <head>
-        <title>Contact Us | Harryette - Beauty Clinic</title>
+        <title>Contact Us | Harryette Salon</title>
 </head>
 <?php include('partialpages/header.php') ?>
 
@@ -109,7 +109,7 @@
                         <img src="./images/Clinic Image 2.jpg" class="img-responsive contact-details-image" style="width: 100%;">
                 </div>
 
-                <div class="container py-3">
+                <div class="container pt-3"  id="contact-body">
                         <div class="col-sm-12 text-center">
                                 <h2><b>Contact Us</b></h2>
                         </div>

@@ -61,6 +61,21 @@
             footer{
                 background-color: white;
             }
+            
+            .modal-title{
+                font-family: 'Amatic SC';
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .modal-dialog{
+                font-family: 'Amatic SC';
+                font-size: 28px;
+            }
+
+            .modal-footer .btn{
+                font-family: 'Amatic SC';
+                font-size: 22px;
+            }
 
 
 
@@ -120,14 +135,14 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title">Book Appointment</h5>
+                                            <p class="modal-title text-center">Book Appointment</p>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
                                             <p>This feature is currently under construction. Please click the OK button to be redirected to our booking site.</p>
                                         </div>
                                         <div class="modal-footer" >
-                                            <button type="button" class="btn btn-primary" onclick="bookAnAppointment()">OK</button>
+                                            <button type="button" class="btn btn-primary btn-md" onclick="bookAnAppointment()">OK</button>
                                         </div>
                                         </div>
                                     </div>

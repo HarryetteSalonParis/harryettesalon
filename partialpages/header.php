@@ -1,6 +1,11 @@
 <html>
     <head>
-        <title>Harryette - Beauty Clinic</title>
+        <title>Harryette Salon</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+        <link rel="manifest" href="./images/site.webmanifest">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -26,18 +31,7 @@
             };
         </script>
 
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-                var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("navbar").style.top = "0";
-                } else {
-                    document.getElementById("navbar").style.top = "-100px";
-                }
-                prevScrollpos = currentScrollPos;
-            }
-        </script>
+
 
         <style>
             @media screen and (max-width: 576px) {
@@ -103,6 +97,8 @@
                 font-family: 'Amatic SC';
                 font-size: 20px;
             }
+            
+
 
             
         </style>
@@ -144,13 +140,13 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Book</a>
                                     </li>
-
+                                    <!--
                                     <li class="nav-item">
                                         <a class="nav-link" href="./gallery.php">Gallery</a>
                                     </li>
-
+                                    -->
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./contact.php">Contact Us</a>
+                                        <a class="nav-link" href="./contact.php#contact-body">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>

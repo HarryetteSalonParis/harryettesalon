@@ -104,7 +104,7 @@
                 
                             <div class="col-sm-4 pt-5 align-self-center">
                                 <div class="container">
-                                    <div class="home-intro text-center">
+                                    <div class="home-intro text-center pt-5">
                                         <p>"Harryette specializes in making your hair and skin healthy and beautiful.</p>
                                         <p>Our mission is to enhance your beauty and to make you feel more confident.</p>
                                         <p>Our vision is a BEYOUTHIFUL YOU!"</p>
@@ -130,6 +130,8 @@
                         </div>
 
                     </div>
+
+                    <div ></div>
 
                     <div class="col-sm-12 py-5 " id="treatments">
                         <div class="container">

@@ -1,5 +1,5 @@
 <head>
-        <title>Services | Harryette - Beauty Clinic</title>
+        <title>Services | Harryette Salon</title>
     </head>
 <?php include('partialpages/header.php') ?>
 
@@ -31,14 +31,14 @@
     </style>
 
     <body onload="init()">
-        <div class="services-wrapper">
+        <div class="services-wrapper" >
             <div class="col-sm-12 services-details">
                 <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%; height: 400px">
             </div>
 
             <div class="col-sm-12 py-5" id="service-body">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" >
                         <div class="discover-treatments-wrapper text-center">
                             <p>UNDERARM TREATMENTS</p>
                         </div>

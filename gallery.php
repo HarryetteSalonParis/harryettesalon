@@ -1,5 +1,5 @@
         <head>
-                <title>Gallery | Harryette - Beauty Clinic</title>
+                <title>Gallery | Harryette Salon</title>
         </head>
 <?php include('partialpages/header.php') ?>
 

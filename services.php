@@ -1,5 +1,5 @@
 <head>
-        <title>Services | Harryette - Beauty Clinic</title>
+        <title>Services | Harryette Salon</title>
     </head>
 <?php include('partialpages/header.php') ?>
 
@@ -14,7 +14,7 @@
         }
         .service-description{
             font-family: 'Amatic SC';
-            font-size: 24px;
+            font-size: 25px;
         }
         .service-description-content{
             display: none;
@@ -54,7 +54,7 @@
 
         .cardFront, .cardBack {
             width: 90%;
-            height: 75%;
+            height: 80%;
             margin-left: 5%;
             margin-top: 3%;
             box-sizing: border-box;
@@ -84,9 +84,10 @@
 
         .service-additional-info-content{
             font-family: 'Amatic SC';
-            font-size: 22px;
+            font-size: 25px;
             line-height: .5;
             display: none;
+            color: black;
         }
 
         .price-prior-notice{
@@ -228,7 +229,7 @@
 
                                     <div id="RFMicroneedling" class="service-description-content">
                                         <p>
-                                            RF microneedling works by creating controlled microdamage that provokes a natural wound-healing response, which kick-starts the biological processes that create new collagen and elastin. Aging and environmental damage (particularly sun damage) break down these structural proteins, while the rate of replacement slows over time. RF microneedling slows and even temporarily reverses this process, helping skin look and act younger.
+                                            RF Microneedling is a skin rejuvenation treatment that uses a combination of microneedling and radiofrequency (RF) energy to stimulate collagen and elastin production. It can be used on your face, neck, or body, is ideal for any skin type, and it is especially helpful in reducing acne scarring and fine lines.
                                         </p>
                                     </div>
 
@@ -288,6 +289,20 @@
                                             a carbon laser peel isn’t a traditional chemical peel. Instead, your doctor uses a carbon solution and lasers to create a peeling effect. The lasers don’t penetrate the skin too deeply, so there's very little recovery time. The treatment takes about 30 minutes, and you can resume regular activity right away.                                        </p>
                                     </div>
 
+                                    <div id="UnderarmLaser" class="service-description-content">
+                                        <p>
+                                            Underarms Laser Treatment which is revolutionary in many ways and which renders obsolete traditional hair removal methods such as shaving, plucking and waxing. Laser uses pulses of light to permanently remove undesired hair growth without stubble, ingrown hairs, redness or other irritation. Infinitely smooth skin, without any pain or irritation, 
+                                            After every treatment, the number of hairs is reduced, resulting in beautiful, smooth results for life.
+                                        </p>
+                                    </div>
+
+                                    <div id="UnderarmWaxing" class="service-description-content">
+                                        <p>
+                                            This semi-permanent hair removal treatment extracts hair by pulling its roots with warm wax. Hair regrowth occurs only after two to eight weeks. We offers waxing for virtually any area of the body, from the eyebrows, legs, arms to bikini, and back areas.
+                                        </p>
+                                    </div>
+
+
                                     <div id="VAJACIAL" class="service-description-content">
                                         <p>
                                             The perfect vajacial to combat and prevent ingrown hairs, breakouts, skin irritations, correct uneven color and texture, Acne scarring, as well as other pigmentation issues and prevent aging. Purify skin, extract impacted pores, and restore it to a healthy state. This treatment hydrates dry and sensitive skins, balances oil production, and will keep the skin youthful and feeling fresh. Great for waxers, shavers, or a nice relaxing treat for your peach!
@@ -299,25 +314,25 @@
                                     <div class="service-additional-info-title">
                                         <p>AT A GLANCE</p>
                                         <div id="ClassicBrazillian-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 2 hours</p>
+                                            <p><b>TREATMENT DURATION:</b> 2 to 3 hours</p>
                                             <p><b>PRICE:</b> Starts at 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="PremiumBrazillian-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 2 &#189 hours</p>
+                                            <p><b>TREATMENT DURATION:</b> 2 to 3 hours</p>
                                             <p><b>PRICE:</b> Starts at 70€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="DeluxeHair-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 2 hours</p>
+                                            <p><b>TREATMENT DURATION:</b> 2 to 3 hours</p>
                                             <p><b>PRICE:</b> 80€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="BotoxBrazillian-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 2 &#189 hours</p>
+                                            <p><b>TREATMENT DURATION:</b> 2 to 3 hours</p>
                                             <p><b>PRICE:</b> 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
@@ -330,40 +345,83 @@
                                         </div>
 
                                         <div id="HifuFacial-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 45 minutes</p>
+                                            <p><b>TREATMENT DURATION:</b> 30 minutes (w/ Harryette's Facial 2 hours)</p>
                                             <p><b>PRICE:</b> Starts at 100€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="Mesoestetic-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> unknown</p>
+                                            <p><b>TREATMENT DURATION:</b> 30 minutes</p>
                                             <p><b>PRICE:</b> 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="Microneedling-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> unknown</p>
+                                            <p><b>TREATMENT DURATION:</b> 1 &#189 hours</p>
                                             <p><b>PRICE:</b> 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="RFMicroneedling-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> unknown</p>
+                                            <p><b>TREATMENT DURATION:</b> 1 &#189 hours</p>
                                             <p><b>PRICE:</b> 80€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="ChanelTreatment-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> unknown</p>
+                                            <p><b>TREATMENT DURATION:</b> 1 &#189 hours</p>
                                             <p><b>PRICE:</b> 125€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="CarbonLaser-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> unknown</p>
+                                            <p><b>TREATMENT DURATION:</b> 1 &#189 hours</p>
                                             <p><b>PRICE:</b> 80€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
+
+                                        <div id="UnderarmLaser-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
+                                        <div id="UnderarmWhitening-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 1 hour</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
+                                        <div id="UnderarmWaxing-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
+                                        <div id="LashLift-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
+                                        <div id="EMSculpt-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
+                                        <div id="VAJACIAL-Price" class="service-additional-info-content">
+                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
+                                            <p><b>PRICE:</b> 25€ per session</p>
+                                            <p>5 sessions get 1 free</p>
+                                            <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -371,10 +429,11 @@
                         <div class="col-sm-2"></div>            
                         <div class="service-image col-sm-4">
                             <div id="serviceImageSegment">
-                                    <img id="serviceImageId" src="" class="img-responsive cardFront">
-                                    <img id="serviceImageIdBack" src="" class="img-responsive cardBack">
+                                <div class="111">
+                                    <img id="serviceImageId" src="" class="img-responsive cardFrontImage">
+                                    <!--<img id="serviceImageIdBack" src="" class="img-responsive cardBack">-->
+                                </div>
                                 <div class="d-grid gap-2 col-6 mx-auto priceDetails">
-                                    <button type="button" id="btn-price" class="btn btn-outline-primary">PRICE</button>
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"data-bs-toggle="modal" data-bs-target="#myModal">RESERVE</button>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 <head>
-        <title>Services | Harryette - Beauty Clinic</title>
+        <title>Services | Harryette Salon</title>
     </head>
 <?php include('partialpages/header.php') ?>
 
@@ -32,13 +32,17 @@
 
     <body onload="init()">
         <div class="services-wrapper">
-            <div class="col-sm-12 services-details">
+            <div class="col-sm-12 services-details" >
                 <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%; height: 400px">
             </div>
 
-            <div class="col-sm-12 py-5" id="service-body">
+            <div class="col-sm-12" id="service-body">
+                <div class="hiddentext" style="visibility:hidden">This text is hidden</div>
+            </div>  
+
+            <div class="col-sm-12 py-5" >
                 <div class="container">
-                    <div class="row">
+                    <div class="row" >
                         <div class="discover-treatments-wrapper text-center">
                             <p>FACIAL SERVICES</p>
                         </div>
@@ -47,7 +51,7 @@
                             <div class="service-card">
                                 <div class="border-0 shadow">
                                 <a href="./services.php?service=HarryetteFacial">
-                                        <img src="./images/HydraFacial.jpg" height="330px" width="330px" class="img-responsive" alt="Hydra Facial">
+                                        <img src="./images/HarryetteFacial.jpg" height="330px" width="330px" class="img-responsive" alt="Harryette Facial">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
@@ -60,7 +64,7 @@
                             <div class="service-card">
                                 <div class="border-0 shadow">
                                     <a href="./services.php?service=HifuFacial">
-                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="HIFU w/ Facial">
+                                        <img src="./images/harryette-service-image.png" height="330px" width="330px" class="img-responsive" alt="HIFU">
                                     </a>
                                 </div>
                                 <div class="service-card-title text-center">
