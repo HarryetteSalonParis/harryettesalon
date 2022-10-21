@@ -2,7 +2,7 @@
             <!-- Menu Content Section Starts-->
 
             <style>
-                @media screen and (max-width: 576px) {
+                @media screen and (max-width: 1199.98px) {
                     .home-details{
                         padding: 30px;
                     }
@@ -16,22 +16,24 @@
                     }
 
                     .discover-treatments-wrapper{
+                        font-size: 28px;
                         padding-top: 0px;
                     }
 
                     .home-intro{
-                        font-size: 30px;
+                        font-size: 38px;
+                        padding-top: 4rem!important;
                     }
                 }
 
-                @media screen and (min-width: 576px){
+                @media screen and (min-width: 1200px){
                     .home-details{
                         padding-top: 100px; 
                         
                     }
 
                     .second-home-details{
-                        padding-top: 35px;
+                        padding-top: 25px;
                     }
                     
                     .discover-treatments-wrapper{
@@ -39,7 +41,8 @@
                     }
                     
                     .home-intro{
-                        font-size: 40px;
+                        font-size: 35px;
+                        padding-top: 6rem!important;
                     }
                 }
 
@@ -101,13 +104,13 @@
 
                             </div>
 
-                
-                            <div class="col-sm-4 pt-5 align-self-center">
+                            <div class="col-sm-4 align-self-center">
                                 <div class="container">
-                                    <div class="home-intro text-center pt-5">
+                                    <div class="home-intro text-center">
                                         <p>"Harryette specializes in making your hair and skin healthy and beautiful.</p>
                                         <p>Our mission is to enhance your beauty and to make you feel more confident.</p>
                                         <p>Our vision is a BEYOUTHIFUL YOU!"</p>
+                                        <p>- Harryette Tagaña</p>
                                     </div>
                                 </div>
 
@@ -131,19 +134,21 @@
 
                     </div>
 
-                    <div ></div>
+                    <div class="col-sm-12" style="margin-top: 1.5em;" id="treatments">
+                        <div class="hiddentext" style="visibility:hidden">This text is hidden</div>
+                    </div>
 
-                    <div class="col-sm-12 py-5 " id="treatments">
+                    <div class="col-sm-12 py-5">
                         <div class="container">
                             <div class="row">
                                 <div class="discover-treatments-wrapper text-center">
                                     <p>DISCOVER THE RIGHT TREATMENTS FOR YOU</p>
                                 </div>
-                                <div class="col-sm-6 py-3 ">
+                                <div class="col-sm-6 py-3">
 									<div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./hair-service-selection.php#service-body">
-                                                <img src="./images/Hair-Service-Line-Image.jpg" height="330px" width="330px" class="img-responsive rounded">
+                                                <img src="./images/Hair-Service-Line-Image.jpg" height="300px" width="300px" class="img-responsive rounded">
                                             </a>
                                         </div>
                                         <div class="treatment-card-title text-center">
@@ -156,7 +161,7 @@
 									<div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./facial-service-selection.php#service-body">
-                                                <img src="./images/Facial-Service-Line-Image.jpg" height="330px" width="330px" class="img-responsive rounded ">
+                                                <img src="./images/Facial-Service-Line-Image.jpg" height="300px" width="300px" class="img-responsive rounded ">
                                             </a>
                                         </div>
                                         <div class="treatment-card-title text-center">
@@ -168,7 +173,7 @@
                                     <div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./underarm-service-selection.php#service-body">
-                                                <img src="./images/Underarm-Service-Line-Image.jpg" height="330px" width="330px" class="img-responsive rounded">
+                                                <img src="./images/Underarm-Service-Line-Image.jpg" height="300px" width="300px" class="img-responsive rounded">
                                             </a>
                                         </div>
                                         <div class="treatment-card-title text-center">
@@ -180,7 +185,7 @@
                                     <div class="treatments-card">
                                         <div class="border-0 shadow">
                                             <a href="./other-service-selection.php#service-body">
-                                                <img src="./images/Other-Service-Line-Image.jpg" height="330px" width="330px" class="img-responsive rounded ">
+                                                <img src="./images/Other-Service-Line-Image.jpg" height="300px" width="300px" class="img-responsive rounded ">
                                             </a>
                                         </div>
                                         <div class="treatment-card-title text-center">

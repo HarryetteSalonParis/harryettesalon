@@ -117,7 +117,7 @@
                 
                 <div class="container py-4">
                         <div class="row">
-                                <div class="col-sm-7">
+                                <div class="col-sm-8">
                                         <div class="mapouter">
                                                 <div class="gmap_canvas" style="width: 100%">
                                                         <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=30%20Rue%20du%20Bailly%2093210%20La%20Plaine%20Saint-Denis&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
@@ -143,10 +143,10 @@
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-sm-5 align-self-center py-3">
+                                <div class="col-sm-4 align-self-center py-3">
                                         <div class="container">
                                                 <div class="clinic-info-details py-4">
-                                                        <h3>Clinic Location</h3>
+                                                        <h3><b>Clinic Location</b></h3>
                                                         <div class="col-sm-12 py-3 ">
                                                                 <img class="d-inline" src="./images/address-location-icon.svg">
 
@@ -162,7 +162,7 @@
 
                                         <div class="container align-self-end">
                                                 <div class="clinic-info-details py-2">
-                                                        <h4>Contact Information</h4>
+                                                        <h3><b>Contact Information</b></h3>
                                                         <div class="col-sm-12 py-3 ">
                                                                 <img class="d-inline" src="./images/phone-ringing-icon.svg">
 
@@ -181,6 +181,7 @@
                                 </div>
                         </div>
                 </div>
+                <!--
                 <div class="questions-wrapper" id="questionsPage">
                         <div class="container pt-3">
                                 <div class="row">
@@ -197,8 +198,7 @@
                                                                 <label for="selectServices">SERVICES</label>
                                                                 <select id="selectServices" name="services">
                                                                         <option value="Hair Services">Hair Services</option>
-                                                                        <option value="HIFU Services">HIFU Services</option>
-                                                                        <option value="Skin Treatments">Skin Treatments</option>
+                                                                        <option value="HIFU Services">Facial Services</option>
                                                                         <option value="Underarm Treatment">Underarm Treatment</option>
                                                                         <option value="Other Services">Other Services</option>
                                                                 </select>
@@ -233,7 +233,7 @@
                                         </div>
                                 </div>
                         </div>
-                </div>
+                </div>-->
         </div>
 
             <!-- Menu Content Section Ends-->

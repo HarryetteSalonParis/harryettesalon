@@ -25,6 +25,7 @@
         }
 
         #serviceImageSegment{
+            border-radius: 15px;
             width: 100%;
             height: max-content;
             background-color: white;
@@ -46,40 +47,22 @@
         
         .priceDetails .btn:hover, .reserveDetails .btn:hover{
             border-color: #F6DDCC;
-            outline: none !important;
-            border:2px solid #F6DDCC;
             background-color: white;
             color: #F6DDCC;
         }
 
-        .cardFront, .cardBack {
+        .serviceImage{
             width: 90%;
-            height: 80%;
-            margin-left: 5%;
-            margin-top: 3%;
+            height: 85%;
+            margin: 5%; 
             box-sizing: border-box;
             position: absolute;
-            transition: transform 0.5s ease;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            background-color: #ebf4ff;
-        }
-        .cardBack {
-            transform: perspective(1000px) rotateY(180deg);
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
         }
 
-        .cardBack.flipped {
-            transform: perspective(1000px) rotateY(0deg);
-        }
+        .cardFrontImage  {
+            width: 100%;
+            height: 95%;
 
-        .cardFront {
-            transform: perspective(1000px) rotateY(0deg);
-        }
-
-        .cardFront.flipped {
-            transform: perspective(1000px) rotateY(-180deg);
         }
 
         .service-additional-info-content{
@@ -138,9 +121,7 @@
 
             var serviceNameVariable = getParameterByName('service');
             var imageSource = './images/' + serviceNameVariable +'.jpg';
-
             document.getElementById("serviceImageId").src = imageSource;
-            document.getElementById("serviceImageIdBack").src = imageSource;
             document.getElementById("service-title-id").innerHTML = serviceTitleMap.get(serviceNameVariable);
 
             if (serviceNameVariable != '') {
@@ -296,12 +277,31 @@
                                         </p>
                                     </div>
 
+                                    <div id="UnderarmWhitening" class="service-description-content">
+                                        <p>
+                                            Be more confident in your underarm with the help of Underarm  Whitening! With underarm diamond peel that uses a whitening soap, bleaching scrub, whitening mask, and whitening solution, you can say goodbye to dark and dull underarm area. One shade lighter every after the session!
+                                        </p>
+                                    </div>
+
                                     <div id="UnderarmWaxing" class="service-description-content">
                                         <p>
                                             This semi-permanent hair removal treatment extracts hair by pulling its roots with warm wax. Hair regrowth occurs only after two to eight weeks. We offers waxing for virtually any area of the body, from the eyebrows, legs, arms to bikini, and back areas.
                                         </p>
                                     </div>
 
+                                    <div id="EMSculpt" class="service-description-content">
+                                        <p>
+                                        EMSculpt is intended for all patients who wish to build muscle mass in their stomach and buttocks. There are very few contraindications, except for pacemakers or copper IUDs.
+
+                                        The effects of EMSculpt may be observed straight after the session and are maximized one month after completing 4 sessions.
+                                        </p>
+                                    </div>
+
+                                    <div id="LashLift" class="service-description-content">
+                                        <p>
+                                            A lash lift uses non-toxic chemicals to permanently curl your natural lashes until they grow out and fall off during their normal growth cycle. It turns the eyelashes upwards to give them length, height, volume, and the appearance of having longer lashes.
+                                        </p>
+                                    </div>
 
                                     <div id="VAJACIAL" class="service-description-content">
                                         <p>
@@ -429,9 +429,8 @@
                         <div class="col-sm-2"></div>            
                         <div class="service-image col-sm-4">
                             <div id="serviceImageSegment">
-                                <div class="111">
+                                <div class="serviceImage">
                                     <img id="serviceImageId" src="" class="img-responsive cardFrontImage">
-                                    <!--<img id="serviceImageIdBack" src="" class="img-responsive cardBack">-->
                                 </div>
                                 <div class="d-grid gap-2 col-6 mx-auto priceDetails">
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"data-bs-toggle="modal" data-bs-target="#myModal">RESERVE</button>
