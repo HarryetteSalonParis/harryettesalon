@@ -34,7 +34,7 @@
 
 
         <style>
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 1199.98px) {
                 .col-sm-2{
                     flex: 0 0 auto;
                     width: max-content;  
@@ -54,7 +54,7 @@
                 
             }
 
-            @media screen and (min-width: 576px)  and (max-width: 1152){
+            @media screen and (min-width: 1200px){
                 .col-sm-2{
                     flex: 0 0 auto;
                     width: max-content;

@@ -4,6 +4,20 @@
 <?php include('partialpages/header.php') ?>
 
     <style>
+
+        @media screen and (max-width: 576px) {
+
+            .service-additional-info-content{
+                line-height: 1;
+            }
+        }
+
+        @media screen and (min-width: 576px){
+            .service-additional-info-content{
+                line-height: .5;
+            }
+        }
+        
         .services-wrapper{
             background: #F5F5F5;
         }
@@ -68,7 +82,6 @@
         .service-additional-info-content{
             font-family: 'Amatic SC';
             font-size: 25px;
-            line-height: .5;
             display: none;
             color: black;
         }
@@ -383,42 +396,36 @@
                                         <div id="UnderarmLaser-Price" class="service-additional-info-content">
                                             <p><b>TREATMENT DURATION:</b> 20 minutes</p>
                                             <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="UnderarmWhitening-Price" class="service-additional-info-content">
                                             <p><b>TREATMENT DURATION:</b> 1 hour</p>
-                                            <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
+                                            <p><b>PRICE:</b> 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="UnderarmWaxing-Price" class="service-additional-info-content">
                                             <p><b>TREATMENT DURATION:</b> 20 minutes</p>
                                             <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="LashLift-Price" class="service-additional-info-content">
                                             <p><b>TREATMENT DURATION:</b> 20 minutes</p>
-                                            <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
+                                            <p><b>PRICE:</b> 35€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="EMSculpt-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
-                                            <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
+                                            <p><b>TREATMENT DURATION:</b> 40 minutes</p>
+                                            <p><b>PRICE:</b> 50€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
                                         <div id="VAJACIAL-Price" class="service-additional-info-content">
-                                            <p><b>TREATMENT DURATION:</b> 20 minutes</p>
-                                            <p><b>PRICE:</b> 25€ per session</p>
-                                            <p>5 sessions get 1 free</p>
+                                            <p><b>TREATMENT DURATION:</b> 1 &#189 hours</p>
+                                            <p><b>PRICE:</b> 60€ per session</p>
                                             <p class="price-prior-notice"><i>Prices may change without prior notice.</i></p>
                                         </div>
 
@@ -426,7 +433,9 @@
                                 </div>
                             </div>
                         </div>    
-                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2">
+                            <div class="hiddentext" style="visibility:hidden">This text is hidden</div>
+                        </div>            
                         <div class="service-image col-sm-4">
                             <div id="serviceImageSegment">
                                 <div class="serviceImage">

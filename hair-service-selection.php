@@ -33,7 +33,7 @@
 
     <body onload="init()">
         <div class="services-wrapper">
-            <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px; padding-top: 100px; padding-bottom: 25px;">
+            <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px; padding-top: 100px;">
                     <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%;">
             </div>
 

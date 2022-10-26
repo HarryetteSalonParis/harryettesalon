@@ -110,7 +110,6 @@
                                         <p>"Harryette specializes in making your hair and skin healthy and beautiful.</p>
                                         <p>Our mission is to enhance your beauty and to make you feel more confident.</p>
                                         <p>Our vision is a BEYOUTHIFUL YOU!"</p>
-                                        <p>- Harryette Tagaña</p>
                                     </div>
                                 </div>
 

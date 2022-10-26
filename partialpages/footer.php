@@ -1,6 +1,6 @@
          <!-- Footer Section Starts-->
         <style>
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 1199.98px) {
                 .footer-details{
                     font-size: 18px;
                     font-family: 'Amatic SC';
@@ -14,7 +14,7 @@
                 }
             }
 
-            @media screen and (min-width: 576px) {
+            @media screen and (min-width: 1200px){
 
                 .footer-details{
                     font-size: 30px;

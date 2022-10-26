@@ -10,7 +10,7 @@
             }
             
             .service-details-image{
-                display: none;
+                height: 200px;
             }
         }
 

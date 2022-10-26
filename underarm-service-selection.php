@@ -10,7 +10,7 @@
             }
             
             .service-details-image{
-                display: none;
+                height: 200px;
             }
         }
 
@@ -18,6 +18,10 @@
             .services-details{
                 padding-top: 100px; 
                 padding-bottom: 25px;
+            }
+
+            .service-details-image{
+                height: 400px;
             }
         }
 
@@ -31,14 +35,18 @@
     </style>
 
     <body onload="init()">
-        <div class="services-wrapper" >
-            <div class="col-sm-12 services-details">
-                <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%; height: 400px">
+        <div class="services-wrapper">
+            <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px; padding-top: 100px;">
+                    <img src="./images/Clinic Image 1.jpg" class="img-responsive service-details-image" style="width: 100%;">
             </div>
 
-            <div class="col-sm-12 py-5" id="service-body">
+            <div class="col-sm-12" id="service-body">
+                <div class="hiddentext" style="visibility:hidden">This text is hidden</div>
+            </div>  
+
+            <div class="col-sm-12 py-5">
                 <div class="container">
-                    <div class="row" >
+                    <div class="row">
                         <div class="discover-treatments-wrapper text-center">
                             <p>UNDERARM TREATMENTS</p>
                         </div>

@@ -4,7 +4,7 @@
 <?php include('partialpages/header.php') ?>
 
         <style>
-                @media screen and (max-width: 576px) {
+            @media screen and (max-width: 1199.98px) {
 
                         .contact-details-image{
                                 height: 200px;
@@ -32,7 +32,7 @@
                         }
                 } 
                 
-                @media screen and (min-width: 576px){
+                @media screen and (min-width: 1200px){
                         .contact-details-image{
                                 height: 400px;
                         }
