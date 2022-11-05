@@ -124,33 +124,35 @@
                         </div>
                         
                         <div class="col-sm-3 align-self-center">
-                            
-                        <div class="btn-bookAppointment">
-                            <button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal"data-bs-toggle="modal" data-bs-target="#myModal">BOOK AN APPOINTMENT</button>
-                        </div>
-
-
-                            <!-- MODAL -->
-                                <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                        <div class="modal-header">
-                                            <p class="modal-title text-center">Book Appointment</p>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>This feature is currently under construction. Please click the OK button to be redirected to our booking site.</p>
-                                        </div>
-                                        <div class="modal-footer" >
-                                            <button type="button" class="btn btn-primary btn-md" onclick="bookAnAppointment()">OK</button>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <!-- MODAL -->
-
+							<div class="btn-bookAppointment">
+								<button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal"data-bs-toggle="modal" data-bs-target="#myModal">BOOK AN APPOINTMENT</button>
+							</div>
                         </div>
                     </div>
+					<!-- MODAL -->
+						<div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+							<div class="modal-dialog">
+								<div class="modal-content">
+								<div class="modal-header">
+									<center><p class="modal-title text-center">Book Appointment</p></center>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<center><p><b>ADVANCE BOOKING POLICY.</b></p>
+									<p>An Online Reservation Fee of 20% will be deducted from your treatment fee.</p></center>
+									<p>No call No show Policy:</p>
+									<center><p>&#8864; No refund on Saturdays and Sundays.</p>
+									<p>&#8864; During weekdays, BOOKING can be rescheduled.</p></center>
+									<br>
+									<center><p>This feature is currently under construction. Please click the OK button to be redirected to our booking site.</p></center>
+								</div>
+								<div class="modal-footer" >
+									<button type="button" class="btn btn-primary btn-md" onclick="bookAnAppointment()">OK</button>
+								</div>
+								</div>
+							</div>
+						</div>
+					<!-- MODAL -->
                 </div> 
             </div>
             <div class="row">
